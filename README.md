@@ -23,4 +23,5 @@ Este é um projeto de gerador de currículos que utiliza Flask, JavaScript, HTML
 ## Desenvolvido por: 
 - Nicole Vidal Silveira 
 - Amanda Chiavini Ribas Santos
----- **SESI SENAI - Curso Técnico de Desenvolvimento de Sistemas - 2024**----
+
+### SESI SENAI - Curso Técnico de Desenvolvimento de Sistemas - 2024
