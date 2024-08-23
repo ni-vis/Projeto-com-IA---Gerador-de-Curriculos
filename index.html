@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GeraCurrículo</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="icon" href="favicon.ico">
+
+</head>
+
+<body>
+
+
+  <section id="home">
+    <div class="image-container">
+
+      <div class="duvida">
+
+        <button id="pulse-button" class="btn btn-outline text-white fs-1" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+          <i class="bi bi-patch-question"></i>
+        </button>
+      </div>
+  
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title fs-2" id="offcanvasRightLabel">SOBRE O PROJETO...</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+  
+          <div class="offcanvas-body ">
+            Este projeto é voltado para a criação de um gerador de currículos. <br>O objetivo é auxiliar o usuário a gerar um
+            currículo completo e organizado, com informações pessoais e profissionais.<br> O gerador permite ao usuário
+            incluir
+            dados como nome, idade, cidade, histórico acadêmico e experiência profissional. <br>Além disso, ele também captura
+            e
+            organiza as habilidades do usuário, oferecendo um documento final bem estruturado, pronto para ser utilizado
+            em
+            processos seletivos. <br>Com foco na facilidade de uso e na personalização, o gerador atende às necessidades de
+            profissionais de diversas áreas.
+          </div>
+          
+        </div>
+        
+        <img class="imgHome" src="imgHome.png" alt="Descrição da imagem">
+        <div class="hero">
+            <div class="overlay">
+                <h1>GERA CURRÍCULO</h1>
+                <p class="fs-4">
+                    <strong>Crie seu currículo profissional em segundos!</strong><br>
+                    Adicione informações como seu nome, idade, cidade, experiência profissional e acadêmica, habilidades... 
+                    Não se preocupe com a ordem das informações, mas quanto mais completo, melhor!<br> 
+                    <strong>Simples, rápido e gratuito!</strong>
+                </p>
+                <a href="#gerador">
+                    <button id="ideia" class="btn btn-outline text-secondary fs-1" type="button">
+                        <i class="bi bi-chevron-double-down"></i>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+    <!-- ----------------------------------------------------------------------------------------------------------------------------- -->
+    <section id='gerador'>
+
+      <!-- Primeiro Modal -->
+      <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalToggleLabel">PRECISA DE AJUDA?</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body fs-5">
+              Você pode seguir esse exemplo, mas lembre-se de usar as <strong>suas</strong> informações!
+              <hr>
+              <img class='imgModal' src="modal1.jpg" alt="Descrição da imagem">
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-secondary" data-bs-target="#exampleModalToggle2"
+                data-bs-toggle="modal">Próximo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Segundo Modal -->
+      <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">PRECISA DE AJUDA?</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body fs-5">
+              Seu currículo sairá assim! Sinta-se a vontade em <strong>adicionar</strong> ou <strong>excluir</strong> o
+              que julgar necessário.
+              <hr>
+              <img class='imgModal' src="modal2.jpg" alt="Descrição da imagem">
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-secondary" data-bs-target="#exampleModalToggle"
+                data-bs-toggle="modal">Voltar</button>
+              <button class="btn btn-secondary" data-bs-target="#exampleModalToggle3"
+                data-bs-toggle="modal">Próximo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Terceiro Modal -->
+      <div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel3"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalToggleLabel3">PRECISA DE AJUDA?</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body fs-5">
+              Não gostou de como seu curriculo ficou? Tente adicionar (ou reformular) algumas de suas informações. Para
+              atualizar sua nova versão, é simples! Clique em <strong>Gerar Currículo</strong> (botão verde) ou em
+              <strong>Adicionar Informações </strong>(botão amarelo), para acrescentar novos dados.
+              <hr>
+              <img class='imgModal' src="modal3.gif" alt="Descrição da imagem">
+              <hr>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-secondary" data-bs-target="#exampleModalToggle2"
+                data-bs-toggle="modal">Voltar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <h1>GERE SEU CURRÍCULO</h1>
+        <div class="tooltip-container">
+          <button id="glowing-button" class="btn btn-white fs-1" data-bs-target="#exampleModalToggle"
+            data-bs-toggle="modal">💡</button>
+          <span class="tooltip-text">Clique para entender como funciona!</span>
+        </div>
+
+
+
+
+
+
+        <div id="ingredients">
+          <div class="ingredient-row">
+            <input type="text" class="ingredient ingredient-input" placeholder="Insira seu nome ...">
+            <!-- <button class="btn-danger" onclick="removeIngredient(this)" disabled>Excluir</button> -->
+          </div>
+
+          <div class="ingredient-row">
+            <input type="text" class="ingredient ingredient-input" placeholder="Insira sua idade...">
+            <!-- <button class="btn-danger" onclick="removeIngredient(this)" disabled>Excluir</button> -->
+          </div>
+
+          <div class="ingredient-row">
+            <input type="text" class="ingredient ingredient-input" placeholder="Insira seu contato... ">
+            <!-- <button class="btn-danger" onclick="removeIngredient(this)" disabled>Excluir</button> -->
+          </div>
+
+          <div class="ingredient-row">
+            <input type="text" class="ingredient ingredient-input" placeholder="Insira a vaga desejada... ">
+            <!-- <button class="btn-danger" onclick="removeIngredient(this)" disabled>Excluir</button> -->
+          </div>
+        </div>
+
+        <div>
+          <button class="btn-primary" onclick="addIngredient()">Adicionar Informação</button>
+          <button class="btn-success" onclick="submitForm()">Gerar Currículo</button>
+        </div>
+        <div id="response" class="response"></div>
+      </div>
+
+
+
+
+    </section>
+
+    <footer>
+      <div class="footer-item">
+          <p>Desenvolvido por Amanda Chiavini e Nicole Vidal</p>
+      </div>
+      <div class="footer-item">
+          <p>Curso Técnico SENAI - 2024</p>
+      </div>
+      <div class="footer-item">
+          <p>GeraCurrículo</p>
+      </div>
+      <div class="footer-item">
+          <img class='imgHome' src="icone.png" alt="Descrição da imagem">
+      </div>
+      <div class="footer-item">
+          <p>&copy; 2024 Todos os direitos reservados.</p>
+      </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
