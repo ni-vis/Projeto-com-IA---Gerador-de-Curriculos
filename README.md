@@ -1,4 +1,4 @@
-# Gerador de Currículos
+# Gerador de Currículos com IA 
 
 Este é um projeto de gerador de currículos que utiliza Flask, JavaScript, HTML/CSS, e a API gratuita de Inteligência Artificial do Google Gemini para criar currículos profissionais a partir das informações fornecidas pelo usuário.
 
