@@ -21,6 +21,6 @@ Este é um projeto de gerador de currículos que utiliza Flask, JavaScript, HTML
 - A chave API do código original foi removida, por segurança. **Para conseguir uma chave API para uso com IA do Google Gemini, você pode acessar:** https://ai.google.dev/aistudio?hl=es-419. 
 
 ## Desenvolvido por: 
-- **SESI SENAI - Curso Técnico de Desenvolvimento de Sistemas - 2024**
 - Nicole Vidal Silveira 
-- Amanda Chiavini Ribas Santos 
+- Amanda Chiavini Ribas Santos
+---- **SESI SENAI - Curso Técnico de Desenvolvimento de Sistemas - 2024**----
